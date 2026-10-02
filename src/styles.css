@@ -1,0 +1,56 @@
+@import "tailwindcss" source("../");
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-urdu: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', serif;
+
+  --color-paper: #f6f1e7;
+  --color-paper-deep: #ece4d4;
+  --color-ink: #14171f;
+  --color-ink-soft: #4a4f5c;
+  --color-chinar: #b8321f;
+  --color-chinar-deep: #8f2416;
+  --color-saffron: #e0a325;
+  --color-lake: #1e4a5f;
+  --color-night: #0d1016;
+  --color-night-card: #161a22;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+.dark body {
+  background: var(--color-night);
+  color: #ece7dd;
+}
+
+.font-urdu {
+  font-family: var(--font-urdu);
+  line-height: 2.1;
+}
+
+/* subtle paper grain */
+.grain {
+  background-image: radial-gradient(rgba(20, 23, 31, 0.06) 1px, transparent 1px);
+  background-size: 4px 4px;
+}
+.dark .grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: none; }
+}
+.rise { animation: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+.rise-1 { animation-delay: 0.08s; }
+.rise-2 { animation-delay: 0.18s; }
+.rise-3 { animation-delay: 0.3s; }
