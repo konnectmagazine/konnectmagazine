@@ -27,6 +27,7 @@ export const editions: Edition[] = [
     month: 'October',
     monthUrdu: 'رمضان',
     year: 2026,
+    coverId: 'JbLbbB4UhHwSP-EO7-ZE76XK-wPk4prm',
     englishPdfId: '1Tlb5dsgyewl-w_elAeYSHyEoiGHO6MVL',
     note: 'Urdu edition coming soon',
   },
