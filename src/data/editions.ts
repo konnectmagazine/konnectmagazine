@@ -21,6 +21,16 @@ export type UpcomingEdition = {
 }
 
 export const editions: Edition[] = [
+ 
+    {
+    slug: '2026-10',
+    month: 'October',
+    monthUrdu: 'رمضان',
+    year: 2026,
+    coverId: '1JbLbbB4UhHwSP-EO7-ZE76XK-wPk4prm',
+    englishPdfId: '1Tlb5dsgyewl-w_elAeYSHyEoiGHO6MVL',
+    note: 'Urdu edition coming soon',
+  },
   {
     slug: '2026-09',
     month: 'September',
