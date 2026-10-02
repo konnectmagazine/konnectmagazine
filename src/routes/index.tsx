@@ -50,7 +50,7 @@ function Home() {
                 params={{ slug: latest.slug }}
                 className="inline-flex items-center gap-2 rounded-full bg-ink px-6 py-3.5 text-sm font-semibold text-paper transition hover:bg-chinar dark:bg-white dark:text-night dark:hover:bg-saffron"
               >
-                <BookOpen size={16} /> Read the {latest.month} issue
+                <BookOpen size={16} /> Read the {latest.month} Magazine 
               </Link>
               <a
                 href="#archive"
@@ -103,13 +103,13 @@ function Home() {
       <section id="archive" className="mx-auto max-w-7xl scroll-mt-20 px-5 py-20">
         <div className="mb-12 flex flex-wrap items-end justify-between gap-6 border-b border-ink/10 pb-6 dark:border-white/10">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-chinar">The archive</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-chinar">The Magazine</p>
             <h2 className="font-display mt-2 text-4xl font-extrabold tracking-tight sm:text-5xl">
               2026 Editions
             </h2>
           </div>
           <p className="max-w-sm text-sm text-ink-soft dark:text-white/60">
-            Tap any cover to open the reader. Every issue is available in English, and most in Urdu too.
+            Tap any cover to open the reader. Every Magazine is available in English, and most in Urdu too.
           </p>
         </div>
 
