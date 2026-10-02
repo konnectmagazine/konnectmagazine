@@ -37,9 +37,9 @@ export const Route = createFileRoute('/editions/$slug')({
   notFoundComponent: () => (
     <div className="mx-auto max-w-xl px-5 py-32 text-center">
       <h1 className="font-display text-4xl font-extrabold">Edition not found</h1>
-      <p className="mt-3 text-ink-soft dark:text-white/60">This issue isn’t in the archive yet.</p>
+      <p className="mt-3 text-ink-soft dark:text-white/60">This Magazine isn’t Published yet.</p>
       <Link to="/" hash="archive" className="mt-6 inline-block font-semibold text-chinar hover:underline">
-        Back to the archive
+        Back to the Magazine 
       </Link>
     </div>
   ),
@@ -197,7 +197,7 @@ function EditionReader() {
               >
                 <ChevronLeft className="text-ink-soft group-hover:text-chinar" />
                 <div>
-                  <p className="text-xs uppercase tracking-widest text-ink-soft dark:text-white/50">Previous issue</p>
+                  <p className="text-xs uppercase tracking-widest text-ink-soft dark:text-white/50">Previous Month Magazine</p>
                   <p className="font-display text-lg font-semibold">{editionTitle(older)}</p>
                 </div>
               </Link>
@@ -211,7 +211,7 @@ function EditionReader() {
                 className="group flex items-center justify-end gap-3 rounded-lg border border-ink/10 p-4 text-right transition hover:border-chinar dark:border-white/10"
               >
                 <div>
-                  <p className="text-xs uppercase tracking-widest text-ink-soft dark:text-white/50">Next issue</p>
+                  <p className="text-xs uppercase tracking-widest text-ink-soft dark:text-white/50">Next Month Magazine</p>
                   <p className="font-display text-lg font-semibold">{editionTitle(newer)}</p>
                 </div>
                 <ChevronRight className="text-ink-soft group-hover:text-chinar" />
