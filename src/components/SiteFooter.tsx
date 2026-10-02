@@ -15,7 +15,7 @@ export function SiteFooter() {
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-saffron">Explore</p>
           <ul className="space-y-2">
             <li><a href="/#latest" className="hover:text-paper">Latest edition</a></li>
-            <li><a href="/#archive" className="hover:text-paper">Archive</a></li>
+            <li><a href="/#archive" className="hover:text-paper">MAGAZINES</a></li>
             <li><a href="/#contribute" className="hover:text-paper">Share your story</a></li>
           </ul>
         </div>
@@ -27,7 +27,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="border-t border-white/10 py-5 text-center text-xs text-paper/50">
-        © {new Date().getFullYear()} Konnect Kashmir Archive
+        © {new Date().getFullYear()} Konnect Magazine Kashmir 
       </div>
     </footer>
   )
