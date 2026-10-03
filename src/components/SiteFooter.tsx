@@ -15,7 +15,7 @@ export function SiteFooter() {
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-saffron">Explore</p>
           <ul className="space-y-2">
             <li><a href="/#latest" className="hover:text-paper">Latest edition</a></li>
-            <li><a href="/#archive" className="hover:text-paper">MAGAZINES</a></li>
+            <li><a href="/#archive" className="hover:text-paper">Magazines</a></li>
             <li><a href="/#contribute" className="hover:text-paper">Share your story</a></li>
           </ul>
         </div>
