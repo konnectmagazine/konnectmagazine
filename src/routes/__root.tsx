@@ -6,7 +6,7 @@ import '../styles.css'
 
 const siteName = 'Konnect Magazine — Connecting North Kashmir'
 const siteDescription =
-  'Konnect is a monthly bilingual magazine from North Kashmir. Read every edition in English and Urdu.'
+  'This is a monthly bilingual magazine from North Kashmir. Read every edition in English and Urdu.'
 
 // Applies the saved theme before paint to avoid a flash.
 const themeScript = `try{if(localStorage.getItem('konnect-theme')==='dark')document.documentElement.classList.add('dark')}catch(e){}`
