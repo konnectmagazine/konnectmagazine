@@ -26,8 +26,8 @@ export const editions: Edition[] = [
     month: 'November',
     monthUrdu: 'رمضان',
     year: 2026,
-    coverId: 'add here thumb',
-    englishPdfId: '',
+    coverId: '1-dSbcXwtY-CDGBQ0BHxun0smLo7WiRU-',
+    englishPdfId: '1-dSbcXwtY-CDGBQ0BHxun0smLo7WiRU-',
     note: 'urdu edition comimg soomn',
   },
  
