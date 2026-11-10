@@ -21,24 +21,15 @@ export type UpcomingEdition = {
 }
 
 export const editions: Edition[] = [
-  {
-    slug: '2026-11',
-    month: 'November',
-    monthUrdu: 'رمضان',
-    year: 2026,
-    coverId: '1-dSbcXwtY-CDGBQ0BHxun0smLo7WiRU-',
-    englishPdfId: '1-dSbcXwtY-CDGBQ0BHxun0smLo7WiRU-',
-    note: 'urdu edition comimg soomn',
-  },
- 
+  
     {
     slug: '2026-10',
     month: 'October',
-    monthUrdu: 'رمضان',
+    monthUrdu: 'اکتوبر',
     year: 2026,
-    coverId: '1-dSbcXwtY-CDGBQ0BHxun0smLo7WiRU-',
-    englishPdfId: '1-dSbcXwtY-CDGBQ0BHxun0smLo7WiRU-',
-    note: 'urdu edition comimg soomn',
+    coverId: '1IQrYdGKJTReTDPxy72vu6KrCRdvnzfVV',
+    englishPdfId: '1KI19UCv8j4paXDcijG0JMCVXhWj0iRin',
+   urduPdfId: '15a7hiaM61vVpyVKXeOX6C-sKUSCUaD9P',
   },
   {
     slug: '2026-09',
@@ -47,7 +38,7 @@ export const editions: Edition[] = [
     year: 2026,
     coverId: '1-dSbcXwtY-CDGBQ0BHxun0smLo7WiRU-',
     englishPdfId: '1-dSbcXwtY-CDGBQ0BHxun0smLo7WiRU-',
-    note: 'Urdu edition coming soon',
+    urduPdfId:'1uko4m5Bvu9P9OjJeGkEWZFSxkocaGoxC',
   },
   {
     slug: '2026-08',
@@ -104,20 +95,29 @@ export const editions: Edition[] = [
     urduPdfId: '1b-bAqtuL9g9QT78HiuiwD9K6iBoW2JYL',
   },
   {
-    // January and February were published together as one double issue.
+   
     slug: '2026-01',
-    month: 'January – February',
-    monthUrdu: 'محرم – صفر',
+    month: 'Febuary',
+    monthUrdu: 'صفر',
     year: 2026,
     coverId: '1pIglQ7LgaaqbqtKrQ_BTJJKNCe2XqO_2',
     englishPdfId: '1YnWVBUxBR1Ohlo1DQU7y-S7GZUJWYbQq',
     urduPdfId: '1KpE72KchBsJMZgK7QvbO-XElhOWsHmFb',
     note: 'Double issue',
   },
+  {
+    slug: '2026-01',
+    month: 'January',
+    monthUrdu: 'محرم',
+    year: 2026,
+    coverId: '',
+    englishPdfId: '',
+    urduPdfId: '',
+    note: 'This Magazine is not published yet',
+  },
 ]
 
 export const upcoming: UpcomingEdition[] = [
-  { month: 'October', monthUrdu: 'شوال', year: 2026 },
   { month: 'November', monthUrdu: 'ذی القعدہ', year: 2026 },
   { month: 'December', monthUrdu: 'ذی الحجہ', year: 2026 },
 ]
