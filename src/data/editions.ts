@@ -103,7 +103,6 @@ export const editions: Edition[] = [
     coverId: '1pIglQ7LgaaqbqtKrQ_BTJJKNCe2XqO_2',
     englishPdfId: '1YnWVBUxBR1Ohlo1DQU7y-S7GZUJWYbQq',
     urduPdfId: '1KpE72KchBsJMZgK7QvbO-XElhOWsHmFb',
-    note: 'Double issue',
   },
   {
     slug: '2026-01',
